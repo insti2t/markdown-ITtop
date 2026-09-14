@@ -20,6 +20,13 @@ _You **can** combine them_
 
 ## Lists
 
+* 1232
+* 1232
+* 123123
+  1. 3234
+  2. .123123
+  3. 234234
+
 // SAVE IS BROKEN :(
 
 https://skillbox.ru/media/code/yazyk-razmetki-markdown-shpargalka-po-sintaksisu-s-primerami/?ysclid=mtsj4xww82432468470
