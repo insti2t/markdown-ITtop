@@ -1,0 +1,15 @@
+<?xml version ="1.0" encoding="UTF-8" ?>
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+
+>
+    <xs:complexType name="PriceType">
+        <xs:simpleContent>
+            <xs:extension base="xs:decimal">
+                <xs:attribute name="currency" type="xs:string" use="required" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:element name="price" type="prod:PriceType" />
+    <xs:element name="name" type="xs:string" />
+</xs:schema>

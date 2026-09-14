@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Комментарий-->
+<order xmlns:prod="./products.xsd">
+    <customer
+        name="Key &amp; Co."
+        city="Cheboksary"
+    >
+        <email>user@keyvalue.com</email>
+        <notes>
+            <![CDATA[<b>Важно: </b>Доставить до 18:00. Не звонить, оставить у двери &lt; script &gt; alert("test"); &lt; /script &gt; ]]>
+        </notes>
+    </customer>
+    <items>
+        <item quantity="2">
+            <prod:name>Laptop Pro 15</prod:name>
+            <prod:price currency="RUB">120000</prod:price>
+        </item>
+    </items>
+</order>
