@@ -1,0 +1,18 @@
+project:
+  name: lection
+  structure:
+    - name: 001
+      type: directory
+      contents:
+        - name: database.md
+          type: file
+        - name: example1.md
+          type: file
+        - name: example2.md
+          type: file		  
+        - name: images.jpg
+          type: file
+        - name: structure.json
+          type: file	
+        - name: таблица с доменами.drawio
+          type: file		  
