@@ -36,12 +36,13 @@ int tern_op(bool x) {
 }
 
 int cycle(int num) {
+    int sum = 1;
     for(int i = 0; i < num; i++) { // поиск суммы четных чисел до num
         if (i % 2 == 0) {
-            num += i;
+            sum += i;
         }
     }
-    return num;
+    return sum;
 }
 
 int main() {
